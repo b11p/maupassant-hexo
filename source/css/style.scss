@@ -1145,7 +1145,8 @@ figure.highlight,
         }
     }
     // C#
-    &.cs .code {
+    &.cs .code,
+    &.c\# .code {
         .preprocessor,
         .preprocessor .keyword {
             color: #333;
