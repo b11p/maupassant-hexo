@@ -126,7 +126,8 @@ if theme.valine.enable == true
       avatar:'#{theme.valine.avatar}',
       guest_info:guest_info,
       pageSize:'#{theme.valine.pageSize}',
-      path: '!{theme.valine.prefix}/!{ page.source }'
+      path: '!{theme.valine.prefix}/!{ page.source }',
+      requiredFields: ['nick','mail']
     })
 
 if theme.minivaline.enable == true
