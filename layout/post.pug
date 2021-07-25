@@ -28,7 +28,7 @@ block content
       script(src='https://assets.changyan.sohu.com/upload/plugins/plugins.count.js', async)
     if theme.valine.enable
       a.disqus-comment-count( href=url_for(page.path) + '#vcomment')
-        span.valine-comment-count(data-xid=url_for(page.path))
+        span.valine-comment-count(data-xid=theme.valine.prefix + "/" + page.source)
         span= ' ' + __('Comment')
     if page.toc
       div(class='clear')
