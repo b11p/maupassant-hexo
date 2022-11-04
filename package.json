@@ -20,6 +20,12 @@
     "hexo-server": "^0.1.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "clipboard": "^2.0.11",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.1",
+    "normalize.css": "^8.0.1",
+    "purecss": "^2.2.0",
+    "toastr": "^2.1.4"
   }
 }
